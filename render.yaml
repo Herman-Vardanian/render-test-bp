@@ -1,7 +1,7 @@
 services:
   - type: web
     name: node-app
-    env: node
+    runtime: node
     region: frankfurt
     plan: free
     buildCommand: npm install
